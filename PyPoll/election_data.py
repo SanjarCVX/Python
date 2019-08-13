@@ -50,19 +50,19 @@ with open(csv_file_path,newline="") as elections:
 
         # We can use this values in our percent vote calculation in the print statements
 
-        if row[0] == "Khan": 
-            print(row[0])
+        if row[2] == "Khan": 
+        
             khan_votes +=1
 
-        elif csvreader == "Correy":
+        elif [2] == "Correy":
 
             correy_votes +=1
 
-        elif csvreader == "Li": 
+        elif [2] == "Li": 
 
             li_votes +=1
 
-        elif csvreader == "O'Tooley":
+        elif [2] == "O'Tooley":
 
             otooley_votes +=1
 
